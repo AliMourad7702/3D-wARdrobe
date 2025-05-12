@@ -1,0 +1,15 @@
+.premium-container {
+    background-color: #ebdcb2e9 !important;
+    color: black !important;
+}
+
+.premium-title {
+    color: black !important;
+}
+
+@media screen and (max-width: 768px) {
+    .premium-container {
+        max-width: 75% !important;
+    }
+
+}
