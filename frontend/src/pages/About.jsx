@@ -1,8 +1,10 @@
 import React from 'react';
 import aliImage from '../imgs/ali.jpg';
-import ahmadTarImage from '../imgs/ahmadT.jpg';
-import ahmadNourImage from '../imgs/ahmadN.jpg';
-import moodyImage from '../imgs/moody.jpg';
+import mazenImage from '../imgs/Screenshot 2025-05-12 223239.png'
+// import ahmadTarImage from '../imgs/ahmadT.jpg';
+// import ahmadNourImage from '../imgs/ahmadN.jpg';
+// import moodyImage from '../imgs/moody.jpg';
+
 import './About.css';
 
 const About = () => {
@@ -23,24 +25,14 @@ const About = () => {
             <br />
             <h2>Meet the Team</h2>
             <div className="team-img-container">
-                <div>
+                <div className='team-member'>
                     <img src={aliImage} alt="Team Member 1" />
                     <h3>Ali Mourad</h3>
                 </div>
 
-                <div>
-                    <img src={ahmadTarImage} alt="Team Member 2" />
-                    <h3>Ahmad Tarakje</h3>
-                </div>
-
-                <div>
-                    <img src={moodyImage} alt="Team Member 3" />
-                    <h3>Mahmood Mohamad</h3>
-                </div>
-
-                <div>
-                    <img src={ahmadNourImage} alt="Team Member 3" />
-                    <h3>Ahmad Noureddine</h3>
+                <div className='team-member'>
+                    <img src={mazenImage} alt="Team Member 2" />
+                    <h3>Mazen Azzam</h3>
                 </div>
             </div>
         </div>

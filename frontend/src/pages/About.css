@@ -41,17 +41,18 @@ div.container a{
 div.container>div {
     display: flex;
     /* flex-wrap: nowrap;  */
-    justify-content: space-between;
 }
 
 .team-img-container {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
+    gap: 5rem;
     margin-top: 5px;
 }
 
 .team-member {
     text-align: center;
+    max-width: max-content;
 }
 
 div.container div>div {
@@ -104,12 +105,9 @@ div.container ul li {
 
     .team-img-container {
         flex-wrap: wrap;
+        gap: 1rem;
     }
 
-    .team-member {
-        width: 100%;
-        margin-bottom: 40px;
-    }
 
     div.container div>div {
         width: 100%;
